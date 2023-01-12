@@ -36,6 +36,8 @@ kotlin {
                 implementation("io.ktor:ktor-network:$ktor_version")
                 // persistence realmdb
                 implementation("io.realm.kotlin:library-base:1.4.0")
+                // file chooser
+                implementation("com.darkrockstudios:mpfilepicker:1.0.0")
             }
         }
         val jvmTest by getting
